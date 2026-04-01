@@ -2,7 +2,8 @@ const express = require("express");
 const app = express();
 
 app.get("/health", (req, res) => {
-    res.json({ status: "OK-CONFLICT-1" });});
+    res.json({ status: "ok", version: "resolved" });
+});
 
 app.get("/api/activities", (req, res) => {
     res.json([]);
