@@ -33,7 +33,7 @@ Avant de lancer le projet, il est nécessaire d’avoir :
 
 ### 1. Cloner le projet
 ```bash
-git clone <URL_DU_REPO>
+git clone git@github.com:malik94400/vitalsync.git
 cd vitalsync
 ```
 
